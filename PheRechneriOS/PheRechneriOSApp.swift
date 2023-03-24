@@ -12,6 +12,7 @@ struct PheRechneriOSApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(DailyPlansData())
         }
     }
 }
